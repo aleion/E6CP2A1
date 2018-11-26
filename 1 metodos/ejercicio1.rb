@@ -2,9 +2,9 @@
 # hint: Debes utilizar 'rubocop'
 # y no obtener errores ni warnings.
 
-def par(x)
-  if x.even? true 
-  else false 
+def par(num)
+  if num.even? true
+  else false
   end
 end
 
