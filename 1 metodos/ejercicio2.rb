@@ -2,7 +2,7 @@
 # Se pide identificar el error y corregirlo.
 
 def random
-  result = [true, false].sample
+  result = [true, false]
   puts result
 end
 
@@ -13,3 +13,4 @@ elsif random == false
 else
   puts 'error'
 end
+
