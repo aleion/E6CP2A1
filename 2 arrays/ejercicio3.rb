@@ -33,4 +33,4 @@ a.each do |suma|
 end
 puts
 
-# ME FALTA LA NUMERO 4
+# listo
