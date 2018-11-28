@@ -8,3 +8,5 @@ def pares(num1, num2)
 end
 
 pares(2, 18)
+
+#listo

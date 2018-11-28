@@ -5,3 +5,11 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def buscador(test, cara)
+  puts "si contiene 'caracter'" if test.include?(cara)
+end
+
+buscador(cadena, caracter)
+
+#listo

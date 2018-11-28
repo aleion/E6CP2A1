@@ -5,12 +5,17 @@
 # <div class='product'><p> Producto4 </p><p> Precio: 950 </p></div>
 
 products = %w(Producto1 Producto2 Producto3 Producto4)
-prices = %w[1000 2000 1500 950]
+prices = [1000,2000,1500,950]
 
 html = ''
 products.each do |i|
-  html += "<div class='product'>"
-  html += "</div>\n"
+  html += "<div class='product'><p> #{i} </p> "
+  html += "</p></div>\n"
+end
+prices.each do |i|
+  html += "#{i}"
 end
 
 puts html
+
+#no me separa los precios

@@ -20,3 +20,5 @@ c << a[0..7].reverse
 puts a
 puts
 puts c
+
+#listo

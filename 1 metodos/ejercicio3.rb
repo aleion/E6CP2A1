@@ -11,3 +11,5 @@ end
 
 check5(10) # Deberia ser false
 check5(4) # Deberia ser true
+
+#listo

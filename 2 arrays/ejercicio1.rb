@@ -16,3 +16,5 @@ arreglo.each do |i|
     print i if i.even?
 end
 puts
+
+#falta la 4 y la 5
