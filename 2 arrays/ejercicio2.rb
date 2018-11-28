@@ -10,3 +10,13 @@
 #    invertir el orden de los elementos en un arreglo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+a.delete_at(-1)
+a.shift
+b = (a.length / 2) + 1
+a.delete_at(b)
+a.delete_at(-1) if a[-1] != 1
+c = []
+c << a[0..7].reverse
+puts a
+puts
+puts c
