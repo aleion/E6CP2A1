@@ -1,7 +1,7 @@
 # El siguiente programa deberia mostrar si o no, sin embargo muestrar error
 # Se pide identificar el error y corregirlo.
 
-def random
+def random(result)
   result = [true, false]
   puts result
 end
@@ -14,4 +14,4 @@ else
   puts 'error'
 end
 
-random
+random(result)
