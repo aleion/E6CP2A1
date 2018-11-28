@@ -8,12 +8,17 @@
 arreglo = [1,2,3,9,1,4,5,2,3,6,6]
 par = ''
 
-puts arreglo[0]
-puts arreglo[-1]
-print arreglo
+puts arreglo.first
+puts arreglo.last
+arreglo.each {|x| print x}
 puts
-arreglo.each do |i|
-    print i if i.even?
+arreglo.each_with_index do |x,i|
+  puts "la posicion #{i} es el valor #{x}"
+
+end
+puts
+arreglo.each_with_index do |x,i|
+    print "#{x} " if i.even? == true
 end
 puts
 
