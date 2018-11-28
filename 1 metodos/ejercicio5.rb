@@ -7,4 +7,4 @@ def pares(num1, num2)
   end
 end
 
-pares(2, 11)
+pares(23, 54)

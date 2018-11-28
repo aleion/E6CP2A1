@@ -3,9 +3,7 @@
 # y no obtener errores ni warnings.
 
 def par(num)
-  if num.even? true
-  else false
-  end
+  puts num if num.even? == true
 end
 
 puts par(2)
