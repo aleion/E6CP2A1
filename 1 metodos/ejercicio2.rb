@@ -12,3 +12,4 @@ elsif random == false
 else
   puts 'error'
 end
+#listo
