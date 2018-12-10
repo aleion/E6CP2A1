@@ -7,7 +7,7 @@ end
 
 if random == true
   puts 'sí'
-if random == false
+elsif random == false
   puts 'no'
 else
   puts 'error'
