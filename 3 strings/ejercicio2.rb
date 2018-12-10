@@ -11,3 +11,4 @@ nombres_min = compas.each { |i| puts i.downcase }
 puts
 nombres_cant = compas.each { |i| p i.length }
 puts
+#listo
