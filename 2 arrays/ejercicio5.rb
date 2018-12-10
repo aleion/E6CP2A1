@@ -6,16 +6,14 @@
 
 products = %w(Producto1 Producto2 Producto3 Producto4)
 prices = [1000,2000,1500,950]
+total = products.zip(prices)
 
 html = ''
-products.each do |i|
-  html += "<div class='product'><p> #{i} </p> "
-  html += "</p></div>\n"
+total.each do |i|
+  html += "<div class='product'><p> #{i[0]} </p><p> #{i[1]} </p>"
+  html += "</div>\n"
 end
-prices.each do |i|
-  html += "#{i}"
-end
-
+p total
 puts html
 
 #no me separa los precios
