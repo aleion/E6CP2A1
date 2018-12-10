@@ -3,10 +3,11 @@
 # 2. Crear un arreglo nuevo con todos los elementos en minúscula.
 # 3. Crear un método que devuelva un arreglo con la cantidad de caracteres que tiene cada nombre.
 
-compas = ['adrian','fabian','sebastian','alicia','kike']
+compas = ['Adrian','Fabian','Sebastian','Alicia','Kike']
 
-def uno
-  if compas[].length > 5
-    puts ' si es mayor'
-  end
-end
+nombres = compas.each { |i| puts i if i.length > 5}
+puts
+nombres_min = compas.each { |i| puts i.downcase }
+puts
+nombres_cant = compas.each { |i| p i.length }
+puts
